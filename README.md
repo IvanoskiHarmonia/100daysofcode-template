@@ -59,7 +59,7 @@ The easiest and most reliable to download this without Git Bash is:
 If you have installed ```Git Bash```, by now I would guess that you already know at least a little bit about programming, and how to use it, so in that case:
 
 
-``` git clone https://github.com/IvanoskiHarmonia/100daysofcode-template ```
+``` git clone https://github.com/IvanoskiHarmonia/100daysofcode-template.git```
 
 
 ---
