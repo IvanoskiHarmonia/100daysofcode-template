@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- favicon link -->
+    <link rel="icon" href="src/logo/favicon/favicon.ico" type="image/png" sizes="16x16">
+
+    <link rel="stylesheet" href="src/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#100DaysOfCode</title>
+</head>
+<body>
+    
+
+    <main>
+
+        <!-- Build multiple fields that will help me access data instantly -->
+        <section class="all-containers">
+            <div>
+                <label for="start">Start: </label>
+                <input type="text" name="start" id="start">
+                <button onclick="startTime()">Start</button>
+                <label for="stop">Stopped: </label>
+                <input type="text" name="stop" id="stop">
+                <button onclick="stopTime()">Stop</button>
+            </div>
+            
+            <div>
+                <label for="reviewed">Reviewed: </label>
+                <textarea type="text" name="reviewed" id="reviewed" cols="30" rows="5"></textarea>
+                
+                <label for="learning">Learning: </label>
+                <textarea type="text" name="learning" id="learning" cols="30" rows="5"></textarea>
+            </div>
+    
+            <div>
+                <button onclick="createLayout()">Create layout</button>
+                <textarea name="layout" id="layout" cols="30" rows="10"></textarea>
+            </div>
+        </section>
+        
+        
+        
+
+    </main>
+
+
+
+
+
+
+    <script src="src/script.js"></script>
+</body>
+</html>

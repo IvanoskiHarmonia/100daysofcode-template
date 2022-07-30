@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    overflow-y: hidden;
+    background: linear-gradient(to right, rgb(8, 160, 233), rgb(0, 132, 180));
+}
+main {
+    height: 100%;
+    display: grid;
+    align-content: center;
+}
+
+.all-containers {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 89% 11% 88% 12% / 7% 95% 5% 93%;
+    background: rgba(37, 37, 37, 0.955);
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 10px 0;
+}
+label {
+    cursor:text;
+}
+input, textarea {
+    margin: 0 10px;
+    width: 25%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+input:focus, textarea:focus {
+    outline: 1px solid rgb(8, 160, 233);
+}
+button {
+    margin: 0 10px;
+    width: 25%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(8, 160, 233);
+    cursor: pointer;
+    font-size: medium;
+}
+button:hover {
+    background-color: rgb(10, 168, 241);
+    border: 1px solid grey;
+    transition: all 0.5s ease-in-out;
+}
+button:active {
+    background-color: rgb(8, 136, 196);
+    border: 1px solid rgb(113, 113, 113);
+}
+
+@media screen and (max-width: 800px) {
+    .all-containers {
+        width: 90%;
+        transition: all 0.5s ease-in-out;
+    }
+    div {
+        width: 90%;
+    }
+    input, textarea {
+        width: 80%;
+    }
+    button {
+        width: 80%;
+    }
+}
+/* 6:21:38PM */
